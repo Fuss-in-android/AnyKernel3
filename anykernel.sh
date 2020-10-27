@@ -13,13 +13,15 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=
+device.name1=daisy
+device.name2=sakura
+device.name3=sakura_india
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=;
+block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=auto;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
@@ -67,4 +69,3 @@ write_boot;
 
 #flash_boot;
 ## end vendor_boot install
-
