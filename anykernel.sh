@@ -4,10 +4,10 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Panda
-kernel.compiler=Neutron Clang
-kernel.made=TogoFire
-message.word=Join @TogoFireChannel
+kernel.string=Sleepy
+kernel.compiler=Proton Clang
+kernel.made=LinkBoi00 zip by WolfAURman
+message.word=Join @WolfAURmanRedmi9Builds
 do.devicecheck=1
 do.modules=0
 do.systemless=1

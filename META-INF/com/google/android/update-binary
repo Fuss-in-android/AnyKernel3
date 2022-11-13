@@ -24,8 +24,8 @@ ui_print() {
   done;
 }
 
-ui_print "-------P A N D A  K E R N E L-------"
-ui_print "-----KERNEL BY  T O G O-F I R E-----";
+#ui_print "-------P A N D A  K E R N E L-------"
+#ui_print "-----KERNEL BY  T O G O-F I R E-----";
 
 ui_printfile() {
   while IFS='' read -r line || $BB [[ -n "$line" ]]; do
@@ -519,24 +519,20 @@ ui_print " " "_________________________________________________";
 ui_print " " "$MESSAGE_WORD" "_________________________________________________" " ";
 ui_print ""
 ui_print ""
-ui_print "  ██████                    ██████   "
-ui_print "██████████  ████████████  ██████████ "
-ui_print "████████████            ████████████ "
-ui_print "████████                    ████████ "
-ui_print "  ████                        ████   "
-ui_print "    ██    ██████    ██████    ██     "
-ui_print "  ██    ████████    ████████    ██   "
-ui_print "  ██    ████  ██    ██  ████    ██   "
-ui_print "  ██    ████████    ████████    ██   "
-ui_print "  ██    ██████        ██████    ██   "
-ui_print "  ██                            ██   "
-ui_print "  ██          ████████          ██   "
-ui_print "    ██          ████          ██     "
-ui_print "    ██      ██        ██      ██     "
-ui_print "      ██      ████████      ██       "
-ui_print "        ████            ████         "
-ui_print "            ████████████             "
+ui_print " _____ _                       "
+ui_print "/  ___| |                      "
+ui_print "\ `--.| | ___  ___ _ __  _   _ "
+ui_print " `--. \ |/ _ \/ _ \ '_ \| | | |"
+ui_print "/\__/ / |  __/  __/ |_) | |_| |"
+ui_print "\____/|_|\___|\___| .__/ \__, |"
+ui_print "                  | |     __/ |"
+ui_print "                  |_|    |___/ "
+ui_print " _   __                     _  "
+ui_print "| | / /                    | | "
+ui_print "| |/ /  ___ _ __ _ __   ___| | "
+ui_print "|    \ / _ \ '__| '_ \ / _ \ | "
+ui_print "| |\  \  __/ |  | | | |  __/ | "
+ui_print "\_| \_/\___|_|  |_| |_|\___|_| "
 ui_print ""
 ui_print ""
-ui_print " " "THANK YOU FOR USING P A N D A-K E R N E L"
 ui_print " " " ";
