@@ -24,8 +24,8 @@ ui_print() {
   done;
 }
 
-ui_print "-------P A N D A  K E R N E L-------"
-ui_print "-----KERNEL BY  T O G O-F I R E-----";
+#ui_print "-------P A N D A  K E R N E L-------"
+#ui_print "-----KERNEL BY  T O G O-F I R E-----";
 
 ui_printfile() {
   while IFS='' read -r line || $BB [[ -n "$line" ]]; do
@@ -518,25 +518,7 @@ ui_print "- Done";
 ui_print " " "_________________________________________________";
 ui_print " " "$MESSAGE_WORD" "_________________________________________________" " ";
 ui_print ""
+ui_print "Thanks for installing"
+ui_print "Biogenesis kernel"                                             
 ui_print ""
-ui_print "  ██████                    ██████   "
-ui_print "██████████  ████████████  ██████████ "
-ui_print "████████████            ████████████ "
-ui_print "████████                    ████████ "
-ui_print "  ████                        ████   "
-ui_print "    ██    ██████    ██████    ██     "
-ui_print "  ██    ████████    ████████    ██   "
-ui_print "  ██    ████  ██    ██  ████    ██   "
-ui_print "  ██    ████████    ████████    ██   "
-ui_print "  ██    ██████        ██████    ██   "
-ui_print "  ██                            ██   "
-ui_print "  ██          ████████          ██   "
-ui_print "    ██          ████          ██     "
-ui_print "    ██      ██        ██      ██     "
-ui_print "      ██      ████████      ██       "
-ui_print "        ████            ████         "
-ui_print "            ████████████             "
-ui_print ""
-ui_print ""
-ui_print " " "THANK YOU FOR USING P A N D A-K E R N E L"
 ui_print " " " ";

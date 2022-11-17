@@ -4,18 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Panda
-kernel.compiler=Neutron Clang
-kernel.made=TogoFire
-message.word=Join @TogoFireChannel
+kernel.string=Biogenesis
+kernel.compiler=TRB Clang
+kernel.made=WolfAURman & TogoFire
+message.word=Join @WolfAURmanRedmi9Builds & @TogoFireChannel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=daisy
-device.name2=sakura
-device.name3=sakura_india
 supported.versions=
 supported.patchlevels=
 '; } # end properties
